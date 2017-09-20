@@ -1,0 +1,18 @@
+{
+  "name": "future-jobs",
+  "version": "0.0.5",
+  "description": "Generate funny future-sounding jobs in 5 lines of code",
+  "main": "index.js",
+  "bin": {
+    "future-jobs": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uniqpath/future-jobs.git"
+  },
+  "author": "davidhq",
+  "license": "ISC"
+}
