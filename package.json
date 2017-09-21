@@ -1,7 +1,7 @@
 {
   "name": "future-jobs",
-  "version": "0.0.5",
-  "description": "Generate funny future-sounding jobs in 5 lines of code",
+  "version": "0.0.24",
+  "description": "Jobs will supposedly be scarce in the future but this script creates them on the fly",
   "main": "index.js",
   "bin": {
     "future-jobs": "index.js"
@@ -14,5 +14,6 @@
     "url": "https://github.com/uniqpath/future-jobs.git"
   },
   "author": "davidhq",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }

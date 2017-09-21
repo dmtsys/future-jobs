@@ -1,27 +1,38 @@
 # Future Jobs
 
-Generates funny future jobs like:
+Jobs will supposedly be scarce in the future but this script creates them on the fly:
 
 ```
-💻 virtual reality implementer
+🚀 rocketship magnate
+🌈 rainbow mechanic
+🌀 virtual reality astronaut
 💗 expansion operator
 🏄 paradigm surfer
-🚀 rocketship magnate
-👷 consensus salesman
+🌕 lunar module polisher
+🏦 unique bankrupcy enthusiast
+🌇 inner city pathfinder
+🚜 space farmer
+👱 consensus salesman
+💫 technical debt visionary
+📞 customer support cowboy
+🌋 volcano destroyer
+📡 visionary long-range radar superhero
+🌂 honorary weather selector
+🌏 flat earth cardinal
+🎷 high tech saxophone maverick
+👸 decentralization princess
+🏡 saturday night gardener
+🔮 hardcore contrarian prophet
+💉 full stack junkie
+👷 adrenaline janitor
+💠 data engine dualist
+👾 spacetime invader
+🍄 chief mushroom professional
 ```
 
-Backend code that produced this — total of 5 lines, so it's very simple:
+`californication` keyword that may appear in results is a tribute to the giants of Silicon Valley mindset before SV became global via `Professional Ethereum Masters`.
 
-```javascript
-const areas = require('./data/areas');
-const operators = require('./data/operators');
-
-const area = areas[Math.floor(areas.length * Math.random())];
-const operator = operators[Math.floor(operators.length * Math.random())];
-
-console.log(`${area} ${operator}`);
-```
-
+problem solved.
 
 ## Prerequisites
 
@@ -48,9 +59,19 @@ Then just run:
 
 ``future-jobs``
 
-to get one future job.
+to get 1000 future jobs.
 
-## Install future-jobs for playing
+## Use from your node project:
+
+``npm install --save future-jobs``
+
+```javascript
+const jobGenerator = require('future-jobs');
+console.log(jobGenerator());
+# unique one direction researcher
+```
+
+## Get source code:
 
     git clone git@github.com:uniqpath/future-jobs.git
     cd future-jobs
@@ -59,6 +80,6 @@ Now run:
 
     node index.js
 
-to get one future job.
+to get 1000 future jobs.
 
-Add more funny words to `data/areas.json` and `data/operators.json`.
+Add more interesting words to `data/honorary.json`, `data/smooth.json`, `data/operator.json` if you wish.

@@ -1,8 +1,10 @@
-#!/usr/bin/env node
-const areas = require('./data/areas');
-const operators = require('./data/operators');
+const jobGenerator = require('./src/jobGenerator');
 
-const area = areas[Math.floor(areas.length * Math.random())];
-const operator = operators[Math.floor(operators.length * Math.random())];
+module.exports = jobGenerator;
 
-console.log(`${area} ${operator}`);
+if (require.main === module) {
+  for (var i = 0; i < 1000; i++) {
+    const job = jobGenerator();
+    console.log(job);
+  }
+}
