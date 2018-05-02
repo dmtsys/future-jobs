@@ -1,6 +1,6 @@
 {
   "name": "future-jobs",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "description": "Jobs will supposedly be scarce in the future but this script creates them on the fly",
   "main": "index.js",
   "bin": {
