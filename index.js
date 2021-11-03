@@ -1,10 +1,3 @@
-const jobGenerator = require('./src/jobGenerator');
+import futureJob from './src/futureJob';
 
-module.exports = jobGenerator;
-
-if (require.main === module) {
-  for (var i = 0; i < 1000; i++) {
-    const job = jobGenerator();
-    console.log(job);
-  }
-}
+export default futureJob;
