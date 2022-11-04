@@ -9,7 +9,7 @@ const honorary = JSON.parse(readFileSync(new URL('../data/honorary.json', import
 const smooth = JSON.parse(readFileSync(new URL('../data/smooth.json', import.meta.url)));
 const operator = JSON.parse(readFileSync(new URL('../data/operator.json', import.meta.url)));
 
-import { xmur3, mulberry32 } from './prng';
+import { xmur3, mulberry32 } from './prng.js';
 
 function zeroToOneVal(seed) {
   return seed != undefined ? mulberry32(xmur3(seed.toString())())() : Math.random();
